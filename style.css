@@ -83,6 +83,26 @@ header {
     color: black;
 }
 
+.navigation .btnRegister-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnRegister-popup:hover {
+    background: white;
+    color: black;
+}
+
 .wrapper {
     max-width: 90%;
     position: relative;
@@ -166,7 +186,7 @@ header {
 
 .input-box label {
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
@@ -176,10 +196,10 @@ header {
     transition: .5s;
 }
 
-.input-box input:focus~label,
+/* .input-box input:focus~label,
 .input-box input:valid~label {
     top: -5px;
-}
+} */
 
 .input-box input {
     width: 100%;
