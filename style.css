@@ -13,7 +13,8 @@ body {
     align-items: center;
     min-height: 100vh;
     background: url(https://wallpaperdelight.com/wp-content/uploads/2024/06/A-tranquil-scene-captured-cherry-blossoms-in-full-bloom-sprinkling-soft-blue-skies-with-petals-mirroring-a-dreamy-snowfall.jpg) no-repeat;
-    background-size: cover;
+    /* https://wallpaperdelight.com/ */
+    background-size: cover; */
     background-position: center;
 }
 
